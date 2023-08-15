@@ -20,6 +20,12 @@
     "paths": {
       "utils/*": [
         "src/utils/*"
+      ],
+      "type/*": [
+        "src/type/*"
+      ],
+      "meta/*": [
+        "src/meta/*"
       ]
     },
     "emitDecoratorMetadata": true,

@@ -1,5 +1,5 @@
 function main() {
-  console.log('Hello, running test!')
+  console.log('Hello, running test2!')
 }
 
 export default main
