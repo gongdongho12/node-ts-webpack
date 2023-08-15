@@ -7,6 +7,9 @@
     "dev": "npm run build && npm start",
     "start": "node build/bundle.js",
     "build": "webpack",
+    "docker-build": "docker build -t dongho1596/node-ts-webpack .",
+    "docker-run": "docker run -d --name node-ts-webpack -it dongho1596/node-ts-webpack",
+    "docker-deploy": "docker push dongho1596/node-ts-webpack",
     "lint": "eslint src --fix"
   },
   "author": "gongdongho12@gmail.com",
